@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "js/util.js","js/settings.js", "js/jquery.min.js", "js/jquery.jplayer.min.js", "js/background.js"]
+   },
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html",
+      "default_title": "豆瓣FM原味版"
+   },
+   "description": "原味呈现官方豆瓣电台，更简单，更易用。现已支持pro用户。最新增加相似歌曲电台功能",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "manifest_version": 2,
+   "name": "豆瓣FM原味版",
+   "options_page": "options.html",
+   "permissions": [ "notifications", "cookies", "tabs", "http://douban.fm/", "http://douban.com/", "http://www.douban.com/", "http://music.baidu.com/*", "http://sug.music.baidu.com/*" ],
+   "short_name": "豆瓣FM",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.1"
+}
